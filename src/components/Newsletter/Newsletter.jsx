@@ -50,7 +50,7 @@ const NewsletterContainer = styled.div`
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 117px;
-
+    cursor: pointer;
     padding: 15px 249px 15px 249px;
   }
 
@@ -61,6 +61,8 @@ const NewsletterContainer = styled.div`
     padding: 21px 31px 21px 31px;
     outline: none;
     margin-bottom: 23px;
+    font-size: 18px;
+    font-weight: 600;
 
     ::placeholder {
       font-size: 15px;

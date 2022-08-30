@@ -136,5 +136,10 @@ const FooterBottom = styled.div`
   .fotterBottom--right {
     display: flex;
     gap: 63px;
+    div {
+      p {
+        cursor: pointer;
+      }
+    }
   }
 `;

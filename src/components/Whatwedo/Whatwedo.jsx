@@ -11,22 +11,22 @@ const Whatwedo = () => {
       </p>
       <IconContainer>
         <div>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-lightbulb-alt"></i>
           <p>Get a business idea</p>
         </div>
         <div className="line"></div>
         <div>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-users-alt"></i>
           <p>Get support from friends</p>
         </div>
         <div className="line"></div>
         <div>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-cog"></i>
           <p>Manage support from friends </p>
         </div>
         <div className="line"></div>
         <div>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-rocket"></i>
           <p>Launch</p>
         </div>
       </IconContainer>
@@ -63,12 +63,34 @@ const IconContainer = styled.div`
   gap: 23px;
   justify-content: center;
   align-items: center;
+  margin-top: 56px;
 
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 25px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background: #054cfc;
+    }
+  }
   .line {
     width: 68px;
     height: 5px;
     background: #054cfc;
     border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   p {
     font-size: 18px;

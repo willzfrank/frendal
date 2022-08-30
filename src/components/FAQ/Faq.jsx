@@ -8,19 +8,19 @@ const Faq = () => {
       <FAQBox>
         <div>
           <p>Why do I need a website for my business ?</p>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-plus"></i>
         </div>
         <div>
           <p>Why do I need a website for my business ?</p>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-plus"></i>
         </div>
         <div>
           <p>Why do I need a website for my business ?</p>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-plus"></i>
         </div>
         <div>
           <p>Why do I need a website for my business ?</p>
-          <i className="icon-3deffects"></i>
+          <i class="uil uil-plus"></i>
         </div>
       </FAQBox>
     </FAQContainer>
@@ -47,9 +47,14 @@ const FAQBox = styled.div`
     padding: 15px 20px;
     height: 83px;
     display: flex;
+    justify-content: space-between;
     border-radius: 4px;
     align-items: center;
     margin-bottom: 10px;
+
+    i {
+      cursor: pointer;
+    }
 
     p {
       font-size: 18px;

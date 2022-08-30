@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 root {
   --font-blue: linear-gradient(0deg, #054cfc, #054cfc);

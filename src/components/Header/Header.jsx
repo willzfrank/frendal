@@ -54,6 +54,7 @@ const HeaderContainer = styled.header`
 const HeaderContent = styled.div`
   width: 660px;
   transition: 0.3s;
+  padding: 0px 6px;
 
   border: 2px solid white;
   h1 {
